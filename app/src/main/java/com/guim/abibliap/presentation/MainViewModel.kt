@@ -3,7 +3,9 @@ package com.guim.abibliap.presentation
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.guim.abibliap.data.dto.books.toBooksData
+import com.guim.abibliap.domain.model.book.BookData
 import com.guim.abibliap.domain.model.books.BooksData
+import com.guim.abibliap.domain.model.chapter.ChapterData
 import com.guim.abibliap.domain.use_case.UseCase
 import com.guim.abibliap.util.Result
 import dagger.hilt.android.lifecycle.HiltViewModel

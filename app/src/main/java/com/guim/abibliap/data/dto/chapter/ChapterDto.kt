@@ -1,6 +1,7 @@
 package com.guim.abibliap.data.dto.chapter
 
 
+import com.guim.abibliap.domain.model.chapter.ChapterData
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
@@ -13,3 +14,9 @@ data class ChapterDto(
     @Json(name = "verses")
     val verses: List<Verse>
 )
+
+fun ChapterDto.toChapterData(): ChapterData {
+    return ChapterData(
+        book = book, chapter = chapter, verses = verses
+    )
+}
