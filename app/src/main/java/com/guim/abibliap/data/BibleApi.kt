@@ -12,7 +12,9 @@ interface BibleApi {
     suspend fun findAllBooks(): BooksDto
 
     @GET("/api/books/:abbrev")
-    suspend fun findOneBook(): BookDto
+    suspend fun findOneBook(
+        @Query("abbrev") abbrev: String
+    ): BookDto
 
     @GET("/api/verses/:version/:abbrev/:chapter")
     suspend fun findChapter(
