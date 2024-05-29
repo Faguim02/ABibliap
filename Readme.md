@@ -62,6 +62,17 @@ Se você tiver problemas ou dúvidas sobre o aplicativo, entre em contato com no
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/jcezart" title="Julio Cezar">
+        <img src="https://avatars.githubusercontent.com/u/23336195?v=4" width="100px;" alt="Foto do Fagner"/><br>
+        <sub>
+          <b>Julio cezar</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
 </table>
 
 ## 🧠 Caso de uso
