@@ -33,7 +33,31 @@ Se você tiver problemas ou dúvidas sobre o aplicativo, entre em contato com no
       <a href="https://github.com/Faguim02" title="Fagner Muniz de Sá">
         <img src="https://avatars.githubusercontent.com/u/100235158?v=4" width="100px;" alt="Foto do Fagner"/><br>
         <sub>
-          <b>Fagner Muniz de Sá</b>
+          <b>Fagner Muniz</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/IsaacDev2022" title="Isaac Martins">
+        <img src="https://avatars.githubusercontent.com/u/56280877?v=4" width="100px;" alt="Foto do Fagner"/><br>
+        <sub>
+          <b>Isaac Martins</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rpsouzadev" title="Rafael Souza">
+        <img src="https://avatars.githubusercontent.com/u/112450109?v=4" width="100px;" alt="Foto do Fagner"/><br>
+        <sub>
+          <b>Rafael Souza</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/CalebeSouza1" title="Caleb Souza">
+        <img src="https://avatars.githubusercontent.com/u/86796719?v=4" width="100px;" alt="Foto do Fagner"/><br>
+        <sub>
+          <b>Caleb Souza</b>
         </sub>
       </a>
     </td>
