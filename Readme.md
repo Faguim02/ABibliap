@@ -77,6 +77,9 @@ Se você tiver problemas ou dúvidas sobre o aplicativo, entre em contato com no
         </sub>
       </a>
     </td>
+  </tr>
+
+  <tr>
     <td align="center">
       <a href="https://github.com/victorcem" title="Victor Castro">
         <img src="https://avatars.githubusercontent.com/u/48868135?v=4" width="100px;" alt="Foto do Fagner"/><br>
@@ -101,10 +104,6 @@ Se você tiver problemas ou dúvidas sobre o aplicativo, entre em contato com no
         </sub>
       </a>
     </td>
-  </tr>
-
-  <tr>
-    
   </tr>
 </table>
 
