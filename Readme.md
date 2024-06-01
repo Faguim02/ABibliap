@@ -108,7 +108,7 @@ Se você tiver problemas ou dúvidas sobre o aplicativo, entre em contato com no
       <a href="https://github.com/Myresti" title="Tamires">
         <img src="https://avatars.githubusercontent.com/u/171454429?v=4" width="100px;" alt="Foto do Fagner"/><br>
         <sub>
-          <b>Estefania Pinheiro</b>
+          <b>Tamires</b>
         </sub>
       </a>
     </td>
