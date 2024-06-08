@@ -4,6 +4,8 @@ import com.guim.abibliap.data.BibleApi
 import com.guim.abibliap.data.repository.RemoteDataRepositoryImpl
 import com.guim.abibliap.domain.repository.RemoteDataRepository
 import com.guim.abibliap.domain.use_case.FindAllBooksUseCase
+import com.guim.abibliap.domain.use_case.FindChapterUseCase
+import com.guim.abibliap.domain.use_case.FindOneBookUseCase
 import com.guim.abibliap.domain.use_case.UseCase
 import com.guim.abibliap.util.Constants
 import com.squareup.moshi.Moshi
@@ -46,7 +48,9 @@ object AppModule {
     @Singleton
     fun provideUseCase(repository: RemoteDataRepository): UseCase {
         return  UseCase(
-            findAllBooksUseCase = FindAllBooksUseCase(repository)
+            findAllBooksUseCase = FindAllBooksUseCase(repository),
+            findChapterUseCase = FindChapterUseCase(repository),
+            findOneBookUseCase = FindOneBookUseCase(repository)
         )
     }
 
