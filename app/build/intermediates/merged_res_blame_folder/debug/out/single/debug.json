@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/drawable_icon_bible.png.flat",
+        "source": "com.guim.abibliap.app-main-60:/drawable/icon_bible.png"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-merged_res-58:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/home/fagner/.gradle/daemon/8.2/com.guim.abibliap.app-main-60:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.guim.abibliap.app-merged_res-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.guim.abibliap.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+    }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.guim.abibliap.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-26T22:43:08" hostname="fagner-desktop" time="0.003">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.guim.abibliap.ExampleUnitTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
