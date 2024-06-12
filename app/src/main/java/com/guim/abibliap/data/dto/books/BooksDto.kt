@@ -7,7 +7,7 @@ import com.squareup.moshi.Json
 //class BooksDto : ArrayList<BooksDtoItem>()
 
 data class BooksDto(
-    val books: List<BooksDtoItem>
+    val books: List<BooksData>
 )
 
 fun BooksDto.toBooksData(): BooksData {

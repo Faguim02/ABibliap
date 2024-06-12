@@ -5,6 +5,12 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="previewBookComponent">
+        <State />
+      </entry>
+      <entry key="previewHomeScreen">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
