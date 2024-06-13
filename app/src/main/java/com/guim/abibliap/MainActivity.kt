@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ABibliapTheme {
                 // A surface container using the 'background' color from the theme
-
+                HomeScreen()
             }
         }
     }

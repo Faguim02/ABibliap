@@ -19,26 +19,34 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.guim.abibliap.data.dto.book.Abbrev
 import com.guim.abibliap.domain.model.book.BookData
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 @Composable
 fun BookComponent(bookData: BookData) {
 
     var expandChapters by remember { mutableStateOf(false) }
 
+    var coroutimeScopo = rememberCoroutineScope()
+
     when(expandChapters) {
         true -> {
             BookItemComponent(
                 bookData = bookData,
-                handleExpandChapters = { expandChapters = !expandChapters },
+                handleExpandChapters = {
+                    expandChapters = !expandChapters
+                },
                 isExpanded = expandChapters
             )
-            Column {
-                ListChaptersComponent(bookData.chapters)
+            Row {
+                ChaptersComponent(bookData.chapters)
             }
         }
         else -> BookItemComponent(
             bookData = bookData,
-            handleExpandChapters = { expandChapters = !expandChapters },
+            handleExpandChapters = {
+                expandChapters = !expandChapters
+            },
             isExpanded = expandChapters
         )
     }
@@ -78,14 +86,6 @@ fun BookItemComponent(bookData: BookData, handleExpandChapters: () -> Unit, isEx
             }
         }
     }
-}
-
-@Composable
-fun ListChaptersComponent(chapterAmount: Int) {
-    Text(
-        text = chapterAmount.toString(),
-        modifier = Modifier.padding(16.dp)
-    )
 }
 
 @Preview()

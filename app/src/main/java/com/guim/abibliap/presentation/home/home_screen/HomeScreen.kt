@@ -31,13 +31,59 @@ fun HomeScreen() {
 
     val booksData = listOf<BookData>(
         BookData(
-            name = "Gênesis", group = "", author = "", comment = "", testament = "", abbrev = Abbrev(en = "gn", pt = "gn"), chapters = 50
+            name = "Gênesis",
+            group = "Pentateuco",
+            author = "Moisés",
+            comment = "",
+            testament = "Antigo Testamento",
+            abbrev = Abbrev(en = "gn", pt = "gn"),
+            chapters = 50
         ),
         BookData(
-            name = "Moisés", group = "", author = "", comment = "", testament = "", abbrev = Abbrev(en = "gn", pt = "gn"), chapters = 40
+            name = "Êxodo",
+            group = "Pentateuco",
+            author = "Moisés",
+            comment = "",
+            testament = "Antigo Testamento",
+            abbrev = Abbrev(en = "ex", pt = "ex"),
+            chapters = 40
         ),
         BookData(
-            name = "Gênesis", group = "", author = "", comment = "", testament = "", abbrev = Abbrev(en = "gn", pt = "gn"), chapters = 50
+            name = "Levítico",
+            group = "Pentateuco",
+            author = "Moisés",
+            comment = "",
+            testament = "Antigo Testamento",
+            abbrev = Abbrev(en = "lv", pt = "lv"),
+            chapters = 27
+        ),
+        BookData(
+            name = "Números",
+            group = "Pentateuco",
+            author = "Moisés",
+            comment = "",
+            testament = "Antigo Testamento",
+            abbrev = Abbrev(en = "nm", pt = "nm"),
+            chapters = 36
+        ),
+        BookData(
+            name = "Deuteronômio",
+            group = "Pentateuco",
+            author = "Moisés",
+            comment = "",
+            testament = "Antigo Testamento",
+            abbrev = Abbrev(en = "dt", pt = "dt"),
+            chapters = 34
+        ),
+        // ... omitidos para abreviar o exemplo
+        BookData(
+            name = "Apocalipse",
+            group = "",
+            author = "João",
+            comment = "",
+            testament = "Novo Testamento",
+            abbrev = Abbrev(en = "rv", pt = "ap"),
+            chapters = 22
         )
     )
 
