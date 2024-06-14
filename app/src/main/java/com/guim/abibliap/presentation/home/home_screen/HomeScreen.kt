@@ -34,7 +34,6 @@ fun HomeScreen() {
             name = "Gênesis",
             group = "Pentateuco",
             author = "Moisés",
-            comment = "",
             testament = "Antigo Testamento",
             abbrev = Abbrev(en = "gn", pt = "gn"),
             chapters = 50
@@ -43,7 +42,6 @@ fun HomeScreen() {
             name = "Êxodo",
             group = "Pentateuco",
             author = "Moisés",
-            comment = "",
             testament = "Antigo Testamento",
             abbrev = Abbrev(en = "ex", pt = "ex"),
             chapters = 40
@@ -52,7 +50,6 @@ fun HomeScreen() {
             name = "Levítico",
             group = "Pentateuco",
             author = "Moisés",
-            comment = "",
             testament = "Antigo Testamento",
             abbrev = Abbrev(en = "lv", pt = "lv"),
             chapters = 27
@@ -61,7 +58,6 @@ fun HomeScreen() {
             name = "Números",
             group = "Pentateuco",
             author = "Moisés",
-            comment = "",
             testament = "Antigo Testamento",
             abbrev = Abbrev(en = "nm", pt = "nm"),
             chapters = 36
@@ -70,7 +66,6 @@ fun HomeScreen() {
             name = "Deuteronômio",
             group = "Pentateuco",
             author = "Moisés",
-            comment = "",
             testament = "Antigo Testamento",
             abbrev = Abbrev(en = "dt", pt = "dt"),
             chapters = 34
@@ -80,7 +75,6 @@ fun HomeScreen() {
             name = "Apocalipse",
             group = "",
             author = "João",
-            comment = "",
             testament = "Novo Testamento",
             abbrev = Abbrev(en = "rv", pt = "ap"),
             chapters = 22

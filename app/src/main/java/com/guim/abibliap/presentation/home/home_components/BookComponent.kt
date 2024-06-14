@@ -93,7 +93,7 @@ fun BookItemComponent(bookData: BookData, handleExpandChapters: () -> Unit, isEx
 fun previewBookComponent() {
 
     val bookData = BookData(
-        name = "Gênesis", group = "", author = "", comment = "", testament = "", abbrev = Abbrev(en = "gn", pt = "gn"), chapters = 50
+        name = "Gênesis", group = "", author = "", testament = "", abbrev = Abbrev(en = "gn", pt = "gn"), chapters = 50
     )
 
     MaterialTheme {

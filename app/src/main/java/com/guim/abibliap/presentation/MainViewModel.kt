@@ -26,7 +26,7 @@ class MainViewModel @Inject constructor(
     private val useCase: UseCase
 ): ViewModel() {
 
-    private val _booksDataResponse = MutableStateFlow<Result<BooksData>>(Result.Idle)
+    private val _booksDataResponse = MutableStateFlow<Result<List<BookData>>>(Result.Idle)
     val booksDataResponse = _booksDataResponse.asStateFlow()
 
     private val _bookDataResponse = MutableStateFlow<Result<BookData>>(Result.Idle)
@@ -35,6 +35,12 @@ class MainViewModel @Inject constructor(
     private val _chapterDataResponse = MutableStateFlow<Result<ChapterData>>(Result.Idle)
     val chapterDataResponse = _chapterDataResponse.asStateFlow()
 
+    init {
+//        findAllBooks()
+//        findOneBook("gn")
+        findChapter("sl","23","nvi")
+    }
+
     fun findAllBooks() = viewModelScope.launch {
         useCase.findAllBooksUseCase.invoke()
             .onStart {
@@ -42,7 +48,7 @@ class MainViewModel @Inject constructor(
             }.catch {
                 _booksDataResponse.value = Result.Error(it)
             }.collect {
-                val result = it.toBooksData()
+                val result = it
                 _booksDataResponse.value = Result.Success(result)
             }
     }
