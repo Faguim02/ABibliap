@@ -13,8 +13,6 @@ data class BookDto(
     val author: String,
     @Json(name = "chapters")
     val chapters: Int,
-    @Json(name = "comment")
-    val comment: String,
     @Json(name = "group")
     val group: String,
     @Json(name = "name")
@@ -28,7 +26,6 @@ fun BookDto.toBookData(): BookData {
         abbrev = abbrev,
         author = author,
         chapters = chapters,
-        comment = comment,
         group = group,
         name = name,
         testament = testament

@@ -4,8 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class Abbrev(
+data class AbbrevEntity(
     @PrimaryKey val id: Int,
-    val pt: String,
-    val en: String
+    val abbrev: String
 )
