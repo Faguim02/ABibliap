@@ -18,6 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.guim.abibliap.data.dto.book.Abbrev
 import com.guim.abibliap.domain.model.book.BookData
 import com.guim.abibliap.domain.model.books.BooksData
@@ -25,9 +26,8 @@ import com.guim.abibliap.presentation.home.home_components.BookComponent
 import com.guim.abibliap.ui.theme.ABibliapTheme
 import com.guim.abibliap.ui.theme.Merriweather
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable()
-fun HomeScreen() {
+fun HomeScreen(navController: NavController) {
 
     val booksData = listOf<BookData>(
         BookData(
@@ -99,7 +99,7 @@ fun HomeScreen() {
                 Spacer(modifier = Modifier.height(32.dp))
             }
         }
-    ) {padding ->
+    ) { padding ->
         Column(
             modifier = Modifier.padding(padding)
         ) {
@@ -120,16 +120,15 @@ fun HomeScreen() {
                     BookComponent(bookData = it)
                 }
             }
-
         }
     }
 
 }
 
-@Preview()
-@Composable
-fun previewHomeScreen() {
-    ABibliapTheme() {
-        HomeScreen()
-    }
-}
+//@Preview()
+//@Composable
+//fun previewHomeScreen() {
+//    ABibliapTheme() {
+//        HomeScreen()
+//    }
+//}
