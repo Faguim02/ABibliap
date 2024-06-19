@@ -1,12 +1,8 @@
 package com.guim.abibliap.presentation.home.home_components
 
-import android.graphics.drawable.Icon
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -19,11 +15,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.guim.abibliap.data.dto.book.Abbrev
 import com.guim.abibliap.domain.model.book.BookData
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 
 @Composable
-fun BookComponent(bookData: BookData) {
+fun BookComponent(
+    bookData: BookData,
+) {
 
     var expandChapters by remember { mutableStateOf(false) }
 
@@ -96,7 +92,7 @@ fun previewBookComponent() {
         name = "Gênesis", group = "", author = "", testament = "", abbrev = Abbrev(en = "gn", pt = "gn"), chapters = 50
     )
 
-    MaterialTheme {
-        BookComponent(bookData = bookData)
-    }
+//    MaterialTheme {
+//        BookComponent(bookData = bookData, onBookClick = onBookClick)
+//    }
 }

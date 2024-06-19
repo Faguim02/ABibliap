@@ -8,6 +8,7 @@ import com.guim.abibliap.data.dto.chapter.Book
 import com.guim.abibliap.data.dto.chapter.Chapter
 import com.guim.abibliap.data.dto.chapter.Verse
 import com.guim.abibliap.data.dto.chapter.toChapterData
+import com.guim.abibliap.data.local.entity.AbbrevEntity
 import com.guim.abibliap.domain.model.book.BookData
 import com.guim.abibliap.domain.model.books.BooksData
 import com.guim.abibliap.domain.model.chapter.ChapterData
@@ -36,9 +37,15 @@ class MainViewModel @Inject constructor(
     val chapterDataResponse = _chapterDataResponse.asStateFlow()
 
     init {
-//        findAllBooks()
+        findAllBooks()
 //        findOneBook("gn")
-        findChapter("sl","23","nvi")
+//        findChapter("sl","23","nvi")
+    }
+
+    fun saveAbbrev(abbrev: AbbrevEntity) {
+        viewModelScope.launch {
+            useCase.insertAbbrev.invoke(abbrev)
+        }
     }
 
     fun findAllBooks() = viewModelScope.launch {

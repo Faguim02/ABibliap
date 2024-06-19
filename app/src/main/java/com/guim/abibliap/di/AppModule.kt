@@ -10,6 +10,7 @@ import com.guim.abibliap.domain.repository.RemoteDataRepository
 import com.guim.abibliap.domain.use_case.FindAllBooksUseCase
 import com.guim.abibliap.domain.use_case.FindChapterUseCase
 import com.guim.abibliap.domain.use_case.FindOneBookUseCase
+import com.guim.abibliap.domain.use_case.InsertAbbrev
 import com.guim.abibliap.domain.use_case.UseCase
 import com.guim.abibliap.util.Constants
 import com.squareup.moshi.Moshi
@@ -33,7 +34,7 @@ object AppModule {
         return Room.databaseBuilder(
             appContext,
             BibleDatabase::class.java,
-            "bible_local_database"
+            "bible_local_database2"
         ).build()
     }
 
@@ -63,6 +64,7 @@ object AppModule {
     @Singleton
     fun provideUseCase(repository: RemoteDataRepository): UseCase {
         return  UseCase(
+            insertAbbrev = InsertAbbrev(repository),
             findAllBooksUseCase = FindAllBooksUseCase(repository),
             findChapterUseCase = FindChapterUseCase(repository),
             findOneBookUseCase = FindOneBookUseCase(repository)

@@ -6,5 +6,7 @@ import androidx.room.PrimaryKey
 @Entity
 data class AbbrevEntity(
     @PrimaryKey val id: Int,
-    val abbrev: String
+    val abbrev: String,
+    val numberChapter: Int,
+    val numberVerse: Int
 )

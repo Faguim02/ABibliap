@@ -12,7 +12,7 @@ fun Navigation(navController: NavHostController) {
 
     NavHost(
         navController = navController,
-        startDestination = Screen.SplashScreen.route
+        startDestination = Screen.HomeScreen.route
     ) {
         composable(
             route = Screen.HomeScreen.route
