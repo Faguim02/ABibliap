@@ -5,6 +5,8 @@ INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManif
 INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [io.coil-kt:coil-compose:2.5.0] /home/fagner/.gradle/caches/transforms-3/df44f5b4aa5f76ecfbe75df800dfd5ab/transformed/coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/fagner/.gradle/caches/transforms-3/0ab5ae403ed47c6fbeef6eeeb3711fec/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
 MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/fagner/.gradle/caches/transforms-3/3c28466ffc958e425d6f6c5793321f4c/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil:2.5.0] /home/fagner/.gradle/caches/transforms-3/8a7cbfea9bc52c6c3838a19baece9304/transformed/coil-2.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/fagner/.gradle/caches/transforms-3/79e3f9eac47dba4d2743d4a052751b3b/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
@@ -65,10 +67,12 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/fagner/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/fagner/.gradle/caches/transforms-3/ffb7a5e8fa444988ce4e6e2982e5634a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/df4ddd833fa2c180283b4e0ae58ee35b/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/4a09bcf418edded814e07304cbf714e4/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/fagner/.gradle/caches/transforms-3/72d8e8435d5b0e881f424af1a4b99524/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/fagner/.gradle/caches/transforms-3/1b43d0c2991a1b2a720fa28935ab1a33/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/fagner/.gradle/caches/transforms-3/1670ead1ec5131f59b7ff203e3023bd6/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/fagner/.gradle/caches/transforms-3/08c3ad2d76abd6127c14f4b40689bfc1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/fagner/.gradle/caches/transforms-3/a13138f1b6a9429670263188158c00d3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fagner/.gradle/caches/transforms-3/9eef2baaaa4b3a0e98b96633580d3eb7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/fagner/.gradle/caches/transforms-3/08c3ad2d76abd6127c14f4b40689bfc1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/fagner/.gradle/caches/transforms-3/c25f484b348fb0ded49ddacd642862c6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/fagner/.gradle/caches/transforms-3/a34fce537d7a6af4c880015247f0b504/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/fagner/.gradle/caches/transforms-3/2d27df66fe53fcd1ad6fedcfe15f8d3d/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -91,6 +95,8 @@ ADDED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest
 application
 ADDED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml:7:5-29:19
 INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/ec7669b37eee2e43a38c7aeda90e625c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/ec7669b37eee2e43a38c7aeda90e625c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/fagner/.gradle/caches/transforms-3/b746dd132fa6fa9afbf6d2995a92392b/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
@@ -157,6 +163,10 @@ INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManif
 INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml
 MERGED from [io.coil-kt:coil-compose:2.5.0] /home/fagner/.gradle/caches/transforms-3/df44f5b4aa5f76ecfbe75df800dfd5ab/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose:2.5.0] /home/fagner/.gradle/caches/transforms-3/df44f5b4aa5f76ecfbe75df800dfd5ab/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/fagner/.gradle/caches/transforms-3/0ab5ae403ed47c6fbeef6eeeb3711fec/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/fagner/.gradle/caches/transforms-3/0ab5ae403ed47c6fbeef6eeeb3711fec/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/fagner/.gradle/caches/transforms-3/3c28466ffc958e425d6f6c5793321f4c/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/fagner/.gradle/caches/transforms-3/3c28466ffc958e425d6f6c5793321f4c/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
 MERGED from [io.coil-kt:coil:2.5.0] /home/fagner/.gradle/caches/transforms-3/8a7cbfea9bc52c6c3838a19baece9304/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
@@ -277,14 +287,18 @@ MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/fagn
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/df4ddd833fa2c180283b4e0ae58ee35b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/4a09bcf418edded814e07304cbf714e4/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/4a09bcf418edded814e07304cbf714e4/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/fagner/.gradle/caches/transforms-3/72d8e8435d5b0e881f424af1a4b99524/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/fagner/.gradle/caches/transforms-3/72d8e8435d5b0e881f424af1a4b99524/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/fagner/.gradle/caches/transforms-3/1b43d0c2991a1b2a720fa28935ab1a33/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/fagner/.gradle/caches/transforms-3/1b43d0c2991a1b2a720fa28935ab1a33/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/fagner/.gradle/caches/transforms-3/1670ead1ec5131f59b7ff203e3023bd6/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/fagner/.gradle/caches/transforms-3/1670ead1ec5131f59b7ff203e3023bd6/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/fagner/.gradle/caches/transforms-3/08c3ad2d76abd6127c14f4b40689bfc1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/fagner/.gradle/caches/transforms-3/08c3ad2d76abd6127c14f4b40689bfc1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/fagner/.gradle/caches/transforms-3/a13138f1b6a9429670263188158c00d3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/fagner/.gradle/caches/transforms-3/a13138f1b6a9429670263188158c00d3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fagner/.gradle/caches/transforms-3/9eef2baaaa4b3a0e98b96633580d3eb7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/fagner/.gradle/caches/transforms-3/9eef2baaaa4b3a0e98b96633580d3eb7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/fagner/.gradle/caches/transforms-3/08c3ad2d76abd6127c14f4b40689bfc1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/fagner/.gradle/caches/transforms-3/08c3ad2d76abd6127c14f4b40689bfc1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/fagner/.gradle/caches/transforms-3/c25f484b348fb0ded49ddacd642862c6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/fagner/.gradle/caches/transforms-3/c25f484b348fb0ded49ddacd642862c6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/fagner/.gradle/caches/transforms-3/a34fce537d7a6af4c880015247f0b504/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
@@ -299,6 +313,16 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.48.1] /home/fagner/.gradle/cach
 		INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/fagner/dev/projects/filmm/ABibliap/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/fagner/.gradle/caches/transforms-3/d709dd654e45081929875721fe4ba47f/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /home/fagner/.gradle/caches/transforms-3/ec7669b37eee2e43a38c7aeda90e625c/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 	android:exported

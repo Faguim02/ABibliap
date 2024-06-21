@@ -1,4 +1,4 @@
-#Thu Jun 13 20:27:03 BRT 2024
+#Fri Jun 21 18:49:07 BRT 2024
 path.4=14/classes.dex
 path.3=12/classes.dex
 path.2=10/classes.dex
@@ -6,6 +6,7 @@ renamed.9=classes10.dex
 path.1=0/classes.dex
 renamed.8=classes9.dex
 path.8=5/classes.dex
+renamed.14=classes15.dex
 path.7=4/classes.dex
 renamed.13=classes14.dex
 path.6=3/classes.dex
@@ -13,6 +14,7 @@ renamed.12=classes13.dex
 path.5=15/classes.dex
 renamed.11=classes12.dex
 renamed.10=classes11.dex
+base.14=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
 path.0=classes.dex
 base.4=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
 base.3=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
@@ -35,6 +37,7 @@ renamed.6=classes7.dex
 base.7=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
 renamed.5=classes6.dex
 base.6=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+path.14=11/classes.dex
 renamed.4=classes5.dex
 base.5=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 base.13=/home/fagner/dev/projects/filmm/ABibliap/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex

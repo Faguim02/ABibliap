@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.guim.abibliap.app-mergeDebugResources-56:/values-ja/values-ja.xml",
+            "outputFile": "com.guim.abibliap.app-mergeDebugResources-60:/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/home/fagner/.gradle/caches/transforms-3/f9dd6d97504d713d3d4082a00c7d7f66/transformed/material3-1.1.1/res/values-ja/values-ja.xml",

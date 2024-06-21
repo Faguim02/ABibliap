@@ -8,8 +8,12 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
 import com.guim.abibliap.data.BibleApi;
+import com.guim.abibliap.data.local.abbrev_dao.AbbrevDao;
+import com.guim.abibliap.data.local.db.BibleDatabase;
 import com.guim.abibliap.di.AppModule;
+import com.guim.abibliap.di.AppModule_ProvideAbbrevDaoFactory;
 import com.guim.abibliap.di.AppModule_ProvideBibleApiFactory;
+import com.guim.abibliap.di.AppModule_ProvideDatabaseFactory;
 import com.guim.abibliap.di.AppModule_ProvideMoshiFactory;
 import com.guim.abibliap.di.AppModule_ProvideRepositoryFactory;
 import com.guim.abibliap.di.AppModule_ProvideUseCaseFactory;
@@ -32,6 +36,7 @@ import dagger.hilt.android.internal.lifecycle.DefaultViewModelFactories;
 import dagger.hilt.android.internal.lifecycle.DefaultViewModelFactories_InternalFactoryFactory_Factory;
 import dagger.hilt.android.internal.managers.ActivityRetainedComponentManager_LifecycleModule_ProvideActivityRetainedLifecycleFactory;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
+import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideContextFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
 import dagger.internal.Preconditions;
@@ -55,11 +60,9 @@ public final class DaggerMyAplication_HiltComponents_SingletonC {
     return new Builder();
   }
 
-  public static MyAplication_HiltComponents.SingletonC create() {
-    return new Builder().build();
-  }
-
   public static final class Builder {
+    private ApplicationContextModule applicationContextModule;
+
     private Builder() {
     }
 
@@ -72,12 +75,8 @@ public final class DaggerMyAplication_HiltComponents_SingletonC {
       return this;
     }
 
-    /**
-     * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
-     */
-    @Deprecated
     public Builder applicationContextModule(ApplicationContextModule applicationContextModule) {
-      Preconditions.checkNotNull(applicationContextModule);
+      this.applicationContextModule = Preconditions.checkNotNull(applicationContextModule);
       return this;
     }
 
@@ -92,7 +91,8 @@ public final class DaggerMyAplication_HiltComponents_SingletonC {
     }
 
     public MyAplication_HiltComponents.SingletonC build() {
-      return new SingletonCImpl();
+      Preconditions.checkBuilderRequirement(applicationContextModule, ApplicationContextModule.class);
+      return new SingletonCImpl(applicationContextModule);
     }
   }
 
@@ -371,6 +371,10 @@ public final class DaggerMyAplication_HiltComponents_SingletonC {
     }
 
     @Override
+    public void injectMainActivity(MainActivity mainActivity) {
+    }
+
+    @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
       return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
@@ -525,26 +529,35 @@ public final class DaggerMyAplication_HiltComponents_SingletonC {
   }
 
   private static final class SingletonCImpl extends MyAplication_HiltComponents.SingletonC {
+    private final ApplicationContextModule applicationContextModule;
+
     private final SingletonCImpl singletonCImpl = this;
 
     private Provider<Moshi> provideMoshiProvider;
 
     private Provider<BibleApi> provideBibleApiProvider;
 
+    private Provider<BibleDatabase> provideDatabaseProvider;
+
     private Provider<RemoteDataRepository> provideRepositoryProvider;
 
     private Provider<UseCase> provideUseCaseProvider;
 
-    private SingletonCImpl() {
-
-      initialize();
+    private SingletonCImpl(ApplicationContextModule applicationContextModuleParam) {
+      this.applicationContextModule = applicationContextModuleParam;
+      initialize(applicationContextModuleParam);
 
     }
 
+    private AbbrevDao abbrevDao() {
+      return AppModule_ProvideAbbrevDaoFactory.provideAbbrevDao(provideDatabaseProvider.get());
+    }
+
     @SuppressWarnings("unchecked")
-    private void initialize() {
+    private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.provideMoshiProvider = DoubleCheck.provider(new SwitchingProvider<Moshi>(singletonCImpl, 3));
       this.provideBibleApiProvider = DoubleCheck.provider(new SwitchingProvider<BibleApi>(singletonCImpl, 2));
+      this.provideDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<BibleDatabase>(singletonCImpl, 4));
       this.provideRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<RemoteDataRepository>(singletonCImpl, 1));
       this.provideUseCaseProvider = DoubleCheck.provider(new SwitchingProvider<UseCase>(singletonCImpl, 0));
     }
@@ -586,13 +599,16 @@ public final class DaggerMyAplication_HiltComponents_SingletonC {
           return (T) AppModule_ProvideUseCaseFactory.provideUseCase(singletonCImpl.provideRepositoryProvider.get());
 
           case 1: // com.guim.abibliap.domain.repository.RemoteDataRepository 
-          return (T) AppModule_ProvideRepositoryFactory.provideRepository(singletonCImpl.provideBibleApiProvider.get());
+          return (T) AppModule_ProvideRepositoryFactory.provideRepository(singletonCImpl.provideBibleApiProvider.get(), singletonCImpl.abbrevDao());
 
           case 2: // com.guim.abibliap.data.BibleApi 
           return (T) AppModule_ProvideBibleApiFactory.provideBibleApi(singletonCImpl.provideMoshiProvider.get());
 
           case 3: // com.squareup.moshi.Moshi 
           return (T) AppModule_ProvideMoshiFactory.provideMoshi();
+
+          case 4: // com.guim.abibliap.data.local.db.BibleDatabase 
+          return (T) AppModule_ProvideDatabaseFactory.provideDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);
         }

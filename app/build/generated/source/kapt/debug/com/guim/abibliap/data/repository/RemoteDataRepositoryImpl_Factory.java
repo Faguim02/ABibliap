@@ -2,6 +2,7 @@
 package com.guim.abibliap.data.repository;
 
 import com.guim.abibliap.data.BibleApi;
+import com.guim.abibliap.data.local.abbrev_dao.AbbrevDao;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;
@@ -20,20 +21,25 @@ import javax.inject.Provider;
 public final class RemoteDataRepositoryImpl_Factory implements Factory<RemoteDataRepositoryImpl> {
   private final Provider<BibleApi> bibleApiProvider;
 
-  public RemoteDataRepositoryImpl_Factory(Provider<BibleApi> bibleApiProvider) {
+  private final Provider<AbbrevDao> abbrevDaoProvider;
+
+  public RemoteDataRepositoryImpl_Factory(Provider<BibleApi> bibleApiProvider,
+      Provider<AbbrevDao> abbrevDaoProvider) {
     this.bibleApiProvider = bibleApiProvider;
+    this.abbrevDaoProvider = abbrevDaoProvider;
   }
 
   @Override
   public RemoteDataRepositoryImpl get() {
-    return newInstance(bibleApiProvider.get());
+    return newInstance(bibleApiProvider.get(), abbrevDaoProvider.get());
   }
 
-  public static RemoteDataRepositoryImpl_Factory create(Provider<BibleApi> bibleApiProvider) {
-    return new RemoteDataRepositoryImpl_Factory(bibleApiProvider);
+  public static RemoteDataRepositoryImpl_Factory create(Provider<BibleApi> bibleApiProvider,
+      Provider<AbbrevDao> abbrevDaoProvider) {
+    return new RemoteDataRepositoryImpl_Factory(bibleApiProvider, abbrevDaoProvider);
   }
 
-  public static RemoteDataRepositoryImpl newInstance(BibleApi bibleApi) {
-    return new RemoteDataRepositoryImpl(bibleApi);
+  public static RemoteDataRepositoryImpl newInstance(BibleApi bibleApi, AbbrevDao abbrevDao) {
+    return new RemoteDataRepositoryImpl(bibleApi, abbrevDao);
   }
 }

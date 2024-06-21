@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.guim.abibliap.app-mergeDebugResources-56:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.guim.abibliap.app-mergeDebugResources-60:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/home/fagner/.gradle/caches/transforms-3/3a75b6a9b36e019a909cf3e02adc7823/transformed/core-1.13.1/res/values-fr-rCA/values-fr-rCA.xml",

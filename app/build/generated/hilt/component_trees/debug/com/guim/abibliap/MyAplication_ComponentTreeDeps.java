@@ -17,6 +17,7 @@ import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_andro
 import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_android_internal_builders_ViewModelComponentBuilder;
 import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_android_internal_builders_ViewWithFragmentComponentBuilder;
 import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_components_SingletonComponent;
+import hilt_aggregated_deps._com_guim_abibliap_MainActivity_GeneratedInjector;
 import hilt_aggregated_deps._com_guim_abibliap_MyAplication_GeneratedInjector;
 import hilt_aggregated_deps._com_guim_abibliap_di_AppModule;
 import hilt_aggregated_deps._com_guim_abibliap_presentation_MainViewModel_HiltModules_BindsModule;
@@ -60,6 +61,7 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
         _dagger_hilt_components_SingletonComponent.class
     },
     aggregatedDeps = {
+        _com_guim_abibliap_MainActivity_GeneratedInjector.class,
         _com_guim_abibliap_MyAplication_GeneratedInjector.class,
         _com_guim_abibliap_di_AppModule.class,
         _com_guim_abibliap_presentation_MainViewModel_HiltModules_BindsModule.class,
