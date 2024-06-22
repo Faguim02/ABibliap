@@ -13,10 +13,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavController
+import com.guim.abibliap.presentation.MainViewModel
 import com.guim.abibliap.ui.theme.ABibliapTheme
 
 @Composable
-fun FolhaScreen() {
+fun FolhaScreen(navController: NavController, viewModel: MainViewModel = hiltViewModel()) {
     Scaffold { innerPadding ->
         Box(
             modifier = Modifier
@@ -66,10 +69,10 @@ fun FolhaScreen() {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun PreviewFolhaScreen() {
-    ABibliapTheme {
-        FolhaScreen()
-    }
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun PreviewFolhaScreen() {
+//    ABibliapTheme {
+//        FolhaScreen()
+//    }
+//}

@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.guim.abibliap.presentation.folha.FolhaScreen
 import com.guim.abibliap.presentation.home.home_screen.HomeScreen
 import com.guim.abibliap.presentation.splash.SplashScreen
 
@@ -23,6 +24,11 @@ fun Navigation(navController: NavHostController) {
             route = Screen.SplashScreen.route
         ) {
             SplashScreen(navController)
+        }
+        composable(
+            route = Screen.FolhaScreen.route
+        ) {
+            FolhaScreen(navController)
         }
     }
 }
