@@ -4,24 +4,7 @@
             "outputFile": "com.guim.abibliap.app-mergeDebugResources-60:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "/home/fagner/.gradle/caches/transforms-3/3a75b6a9b36e019a909cf3e02adc7823/transformed/core-1.13.1/res/values-pt/values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,254,353,453,560,670,790",
-                        "endColumns": "96,101,98,99,106,109,119,100",
-                        "endOffsets": "147,249,348,448,555,665,785,886"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,63",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "561,658,760,859,959,1066,1176,6471",
-                        "endColumns": "96,101,98,99,106,109,119,100",
-                        "endOffsets": "653,755,854,954,1061,1171,1291,6567"
-                    }
-                },
-                {
-                    "source": "/home/fagner/.gradle/caches/transforms-3/f9dd6d97504d713d3d4082a00c7d7f66/transformed/material3-1.1.1/res/values-pt/values-pt.xml",
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\f9dd6d97504d713d3d4082a00c7d7f66\\transformed\\material3-1.1.1\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/fagner/.gradle/caches/transforms-3/b1a3eaaf99ea4add9cd972cd75393e84/transformed/ui-release/res/values-pt/values-pt.xml",
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\b1a3eaaf99ea4add9cd972cd75393e84\\transformed\\ui-release\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "1296,1391,5113,5210,5391,5551,5634,5731,5822,5909,5981,6050,6135,6310,6669,6745,6812",
                         "endColumns": "94,85,96,98,85,82,96,90,86,71,68,84,89,75,75,66,112",
                         "endOffsets": "1386,1472,5205,5304,5472,5629,5726,5817,5904,5976,6045,6130,6220,6381,6740,6807,6920"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\3a75b6a9b36e019a909cf3e02adc7823\\transformed\\core-1.13.1\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,670,790",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "147,249,348,448,555,665,785,886"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,63",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "561,658,760,859,959,1066,1176,6471",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "653,755,854,954,1061,1171,1291,6567"
                     }
                 }
             ]

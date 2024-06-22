@@ -4,7 +4,7 @@
             "outputFile": "com.guim.abibliap.app-mergeDebugResources-60:/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "/home/fagner/.gradle/caches/transforms-3/f9dd6d97504d713d3d4082a00c7d7f66/transformed/material3-1.1.1/res/values-ko/values-ko.xml",
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\f9dd6d97504d713d3d4082a00c7d7f66\\transformed\\material3-1.1.1\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/fagner/.gradle/caches/transforms-3/3a75b6a9b36e019a909cf3e02adc7823/transformed/core-1.13.1/res/values-ko/values-ko.xml",
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\3a75b6a9b36e019a909cf3e02adc7823\\transformed\\core-1.13.1\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/fagner/.gradle/caches/transforms-3/b1a3eaaf99ea4add9cd972cd75393e84/transformed/ui-release/res/values-ko/values-ko.xml",
+                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\b1a3eaaf99ea4add9cd972cd75393e84\\transformed\\ui-release\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
