@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.guim.abibliap.app-mergeDebugResources-60:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.guim.abibliap.app-mergeDebugResources-61:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\f9dd6d97504d713d3d4082a00c7d7f66\\transformed\\material3-1.1.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Isaac Silva Martins\\.gradle\\caches\\transforms-3\\f9dd6d97504d713d3d4082a00c7d7f66\\transformed\\material3-1.1.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\3a75b6a9b36e019a909cf3e02adc7823\\transformed\\core-1.13.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,352,456,560,665,781",
-                        "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "148,250,347,451,555,660,776,877"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,63",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "562,660,762,859,963,1067,1172,6433",
-                        "endColumns": "97,101,96,103,103,104,115,100",
-                        "endOffsets": "655,757,854,958,1062,1167,1283,6529"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\victo\\.gradle\\caches\\transforms-3\\b1a3eaaf99ea4add9cd972cd75393e84\\transformed\\ui-release\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Isaac Silva Martins\\.gradle\\caches\\transforms-3\\b1a3eaaf99ea4add9cd972cd75393e84\\transformed\\ui-release\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "1288,1385,5101,5198,5372,5538,5615,5706,5798,5883,5955,6026,6106,6276,6637,6716,6786",
                         "endColumns": "96,86,96,100,85,76,90,91,84,71,70,79,84,72,78,69,117",
                         "endOffsets": "1380,1467,5193,5294,5453,5610,5701,5793,5878,5950,6021,6101,6186,6344,6711,6781,6899"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Isaac Silva Martins\\.gradle\\caches\\transforms-3\\3a75b6a9b36e019a909cf3e02adc7823\\transformed\\core-1.13.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,456,560,665,781",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "148,250,347,451,555,660,776,877"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,63",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "562,660,762,859,963,1067,1172,6433",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "655,757,854,958,1062,1167,1283,6529"
                     }
                 }
             ]

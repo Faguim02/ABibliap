@@ -10,4 +10,9 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ABibliap</string>
     <style name="Theme.ABibliap" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_image</item>
+        <item name="postSplashScreenTheme">@style/Theme.ABibliap</item>
+    </style>
 </resources>

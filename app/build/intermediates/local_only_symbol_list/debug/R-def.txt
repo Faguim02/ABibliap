@@ -20,5 +20,6 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 style Theme.ABibliap
+style Theme.MySplashScreen
 xml backup_rules
 xml data_extraction_rules

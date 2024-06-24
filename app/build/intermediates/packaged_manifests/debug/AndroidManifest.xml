@@ -29,7 +29,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.ABibliap" >
+        android:theme="@style/Theme.MySplashScreen" >
         <activity
             android:name="com.guim.abibliap.MainActivity"
             android:exported="true"
